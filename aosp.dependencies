@@ -9,7 +9,7 @@
     "repository"  : "vendor_motorola_chef",
     "target_path" : "vendor/motorola/chef",
     "branch"      : "ten",
-    "remote"      : "pixel-devices-bitbucket"
+    "remote"      : "pixel-devices-blobs"
   },
   {
     "remote":      "github",
