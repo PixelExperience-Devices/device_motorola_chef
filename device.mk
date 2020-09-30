@@ -56,6 +56,10 @@ PRODUCT_BOOT_JARS += qcom.fmradio
 PRODUCT_PACKAGES += \
     init.chef.rc
 
+# Powerhint
+PRODUCT_COPY_FILES += \
+     $(LOCAL_PATH)/configs/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
+
 # Sensors
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf \
